@@ -40,7 +40,7 @@ class _FullScreenMapState extends State<FullScreenMap> {
       mainAxisAlignment: MainAxisAlignment.end,
       children: [
         FloatingActionButton(
-            child: Icon(Icons.zoom_in),
+            child: const Icon(Icons.zoom_in),
             onPressed: () {
               setState(() {
                 _zoom = _zoom + 1;
@@ -49,7 +49,7 @@ class _FullScreenMapState extends State<FullScreenMap> {
             }),
         const SizedBox(height: 10.0),
         FloatingActionButton(
-            child: Icon(Icons.zoom_out),
+            child: const Icon(Icons.zoom_out),
             onPressed: () {
               _zoom = _zoom - 1;
               if (_zoom < 10.0) {
@@ -59,7 +59,7 @@ class _FullScreenMapState extends State<FullScreenMap> {
             }),
         const SizedBox(height: 10.0),
         FloatingActionButton(
-            child: Icon(Icons.add_to_home_screen),
+            child: const Icon(Icons.add_to_home_screen),
             onPressed: () {
               if (selectedStyle == darkStyle) {
                 selectedStyle = lightStyle;
