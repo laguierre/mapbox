@@ -10,5 +10,5 @@ MapBox App using MapBox API
 
 ## GIF
 <p align="center">
-<img src="https://github.com/laguierre/cuenta_dni_clone/blob/master/screenshots/intro.gif" height="700">
+<img src="https://github.com/laguierre/mapbox/blob/master/screenshots/untitled.gif" height="700">
 </p>
